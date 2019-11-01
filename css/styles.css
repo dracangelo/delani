@@ -39,4 +39,7 @@
 
 #portfolio {
     padding-top: 5vh;
+    justify-content: space-evenly;
+    padding-bottom: 6vh;
 }
+
