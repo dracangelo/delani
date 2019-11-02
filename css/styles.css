@@ -1,5 +1,6 @@
 .lander {
     background-image: url(https://bit.ly/2oDLynS);
+    background-attachment: fixed;
     height: 100vh;
     color: white;
     text-align: center;
@@ -49,5 +50,9 @@
 }
 
 footer {
-    padding-left: 10px;
+    text-align: center;
+}
+
+footer img {
+    padding: 1.2vh;
 }
