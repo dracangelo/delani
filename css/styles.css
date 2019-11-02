@@ -56,3 +56,23 @@ footer {
 footer img {
     padding: 1.2vh;
 }
+
+.cop {
+    text-align: center;
+}
+
+#namee {
+    background: transparent;
+}
+
+#email  {
+    background: transparent;
+}
+
+#meso {
+    background: transparent;
+}
+
+::placeholder {
+    color: white;
+}
