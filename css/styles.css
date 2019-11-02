@@ -11,7 +11,7 @@
 }
 
 .bisha {
-    padding-top: 15vh
+    padding-top: 15vh;
 }
 
 #about {
@@ -40,5 +40,6 @@
 #portfolio {
     padding-top: 5vh;
     padding-bottom: 6vh;
+    text-align:center;
 }
 
