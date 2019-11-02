@@ -31,6 +31,11 @@
 #contacts {
     text-align: center;
     background-image: url(https://bit.ly/34lmyRu);
+    /* background: transparent; */
+}
+
+#contacts form {
+    background:transparent;
 }
 
 #us {
@@ -43,3 +48,6 @@
     text-align:center;
 }
 
+footer {
+    padding-left: 10px;
+}
