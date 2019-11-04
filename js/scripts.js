@@ -40,4 +40,36 @@ $(document).ready(function() {
           $(".text4").hide("slow")
       }
   );
+  $("#shtap").hover (
+      function() {
+          $(".text5").show("slow");
+      },
+      function() {
+          $(".text5").hide("slow")
+      },
+  );
+  $("#doo").hover (
+      function() {
+          $(".text6").show("slow");
+      },
+      function() {
+          $(".text6").hide("slow")
+      }
+  );
+  $("#cls").hover (
+      function() {
+          $(".text7").show("slow");
+      },
+      function() {
+          $(".text7").hide("slow")
+      }
+  );
+  $("#ksj").hover (
+      function() {
+          $(".text8").show("slow");
+      },
+      function() {
+          $(".text8").hide("slow")
+      }
+  );
 });
