@@ -13,7 +13,7 @@
         <img src="images/logo.png" /><br />
         <p class="into">WELCOME<br />TO DELANI STUDIOS</p>
         <P class="heel">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIROMENT</P><br />
-        <img class="bisha" src="images/mouse_click.png" />
+        <img class="bisha" src="images/mouse_click.png"/ id="pointer">
       </div>
 
       <div id="about">
@@ -49,8 +49,8 @@
       <div class="imageees">
         <div class="row text-center">
           <div class="col-md-4">
-            <img src="images/design_icon.png" id="pp">
-            <h3>DECISION</h3>
+            <img src="images/design_icon.png" id="pp" class="design">
+            <h3>DESIGN</h3>
             <p id="dd">
               Our design practice offers a full range of services including
               brand strategy, interaction and visual design and user experience
@@ -60,7 +60,7 @@
             </p>
           </div>
           <div class="col-md-4">
-            <img src="images/dev_icon.png" id="tt" />
+            <img src="images/dev_icon.png" id="tt" class="design"/>
             <h3>DEVELOPMENT</h3>
             <p id="uu">
               All engineers are fluent in the latest enterprise, mobile and web
@@ -71,7 +71,7 @@
             </p>
           </div>
           <div class="col md-4">
-            <img src="images/product_icon.png" id="gg" />
+            <img src="images/product_icon.png" id="gg" class="design"/>
             <h3>PRODUCT DEVELOPMENT</h3>
             <p id="mm">
               Planning and development is iterative. Because we are constantly
@@ -134,11 +134,11 @@
             <form class="form-row mb-4">
               <!-- first input form -->
               <div class="col-md-6">
-                <input type="text" name="Name" placeholder="Name..." class="form control" id="namee" size="60">
+                <input type="text" name="Name" placeholder="Name..." class="form control" id="namee" size="60" required>
               </div>
               <!-- second input form -->
               <div class="col-md-6">
-                <input type="email" name="Email" placeholder="Email..." class="form control" id="email" size="60">
+                <input type="email" name="Email" placeholder="Email..." class="form control" id="email" size="60" required>
               </div>
             </form>
           </div>
@@ -146,13 +146,13 @@
             <form class="form-row mb-4">
               <!-- textarea  -->
               <div class="col text-center">
-                <textarea name="message" id="meso" cols="110" rows="10" placeholder="Your message here..."></textarea>
+                <textarea name="message" id="meso" cols="110" rows="10" placeholder="Your message here..." required></textarea>
               </div>
             </form>
           </div>
           <div class="row d-flex justify-content-center ">
             <form>
-              <button type="submit" id="btns" class="btn btn-primary">Send</button>
+              <a type="submit" onclick="submit()" id="btns" class="btn btn-primary">Send</a>
             </form>
           </div>
         </div>

@@ -73,3 +73,16 @@ $(document).ready(function() {
       }
   );
 });
+function submit(){
+
+var name=document.getElementById("name")
+var email=document.getElementById("email")
+var message=document.getElementById("meso")
+if(email="") {
+    alert("please enter email")
+}
+else {
+    alert("Thank you for reaching out to us!")
+}
+event.preventDefault()
+}
