@@ -43,7 +43,7 @@ $(document).ready(function() {
   $("#shtap").hover (
       function() {
           $(".text5").show("slow");
-      },
+      }, 
       function() {
           $(".text5").hide("slow")
       },
