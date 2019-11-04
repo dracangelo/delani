@@ -89,19 +89,9 @@ footer img {
     background: chartreuse;
     color: rgb(214, 7, 41);
 }
-.texta {
-    position: absolute;
-    color: white;
-    top: 20%;
-    border-style: solid;
-    padding: 60px;
-    left: 10%;
-    visibility: hidden;
-}
-.image:hover .texta {
-   /* opacity: 0.9; */
-   visibility: visible;
-   background-color: rgba(0,0,0,0.6);
+.headd {
+    padding-top: 3vh;
+    margin-bottom: 4vh;
 }
 .portfolio:hover{
     opacity:0.6;
