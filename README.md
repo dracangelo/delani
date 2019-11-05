@@ -25,6 +25,7 @@
 ## Technologies Used
 - html
  - css
+ 
  - javascript
  - bootsrap
  - jquery

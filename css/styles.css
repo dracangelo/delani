@@ -3,16 +3,25 @@
     background-attachment: fixed;
     height: 100vh;
     color: white;
-    text-align: center;
+    /* padding-left: 92vh; */
     padding-top: 35vh;
 }
 
+.lander p {
+    text-align: center;
+    padding-top: 3vh;
+}
+
+.saaa {
+    padding-left: 91vh;
+}
 .into {
     font-size: 3rem;
 }
 
 .bisha {
     padding-top: 15vh;
+    padding-left: 92vh;
 }
 
 #about {
@@ -53,9 +62,9 @@ footer {
     text-align: center;
 }
 
-footer img {
+/* footer img {
     padding: 1.2vh;
-}
+} */
 
 .cop {
     text-align: center;
