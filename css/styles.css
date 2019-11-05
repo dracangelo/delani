@@ -72,14 +72,17 @@ footer {
 
 #namee {
     background: transparent;
+    color:white;
 }
 
 #email  {
     background: transparent;
+    color:white;
 }
 
 #meso {
     background: transparent;
+    color:white;
 }
 
 ::placeholder {

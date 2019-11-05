@@ -3,6 +3,7 @@
 
   <head>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Delani Studios</title>
   </head>
@@ -90,38 +91,38 @@
           <div class="container">
             <div class="row">
               <div class="col-md-3">
-                <img src="images/work4.jpg" class="img-fluid  portfolio" id="pic" />
-                <p class="text1 text">PROJECT 1</p>
+                <img src="images/work1.jpg" class="img-fluid  portfolio" id="pic" />
+                <p class="text1 text">Best movie app</p>
               </div>
               <div class="col-md-3">
-                <img src="images/work3.jpg" class="img-fluid  portfolio" id="nop" />
-                <p class="text2 text">PROJECT 2</p>
+                <img src="images/work2.jpg" class="img-fluid  portfolio" id="nop" />
+                <p class="text2 text">Orange works</p>
               </div>
               <div class="col-md-3">
-                <img src="images/work2.jpg" class="img-fluid  portfolio" id="noo"/>
-                <p class="text3 text">PROJECT-3</p>
+                <img src="images/work3.jpg" class="img-fluid  portfolio" id="noo"/>
+                <p class="text3 text">Mighty Ontario</p>
               </div>
               <div class="col-md-3">
-                <img src="images/work1.jpg" class="img-fluid  portfolio" id="yep"/>
-                <p class="text4 text">PROJECT-4</p>
+                <img src="images/work4.jpg" class="img-fluid  portfolio" id="yep"/>
+                <p class="text4 text">Black Water</p>
               </div>
             </div>
             <div class="row pt-3">
               <div class="col-md-3">
                 <img src="images/work5.jpg" class="img-fluid  portfolio" id="shtap" />
-                <p class="text5 text">PROJECT-5</p>
+                <p class="text5 text">Elexa Connection</p>
               </div>
               <div class="col-md-3">
                 <img src="images/work6.jpg" class="img-fluid  portfolio" id="doo"/>
-                <p class="text6 text">PROJECT-6</p>
+                <p class="text6 text">A Lot Of Plugin</p>
               </div>
               <div class="col-md-3">
                 <img src="images/work7.jpg" class="img-fluid  portfolio" id="cls"/>
-                <p class="text7 text">PROJECT-7</p>
+                <p class="text7 text">Burned Coffee</p>
               </div>
               <div class="col-md-3">
                 <img src="images/work8.jpg" class="img-fluid  portfolio" id="ksj"/>
-                <p class="text8 text">PROJECT-8</p>
+                <p class="text8 text">Giraffe Restaurant</p>
               </div>
             </div>
           </div>
@@ -132,32 +133,44 @@
       <div id="contacts">
         <div class="container-fluid " id="sec-5">
           <h5 class="text-center con">CONTACT US</h5>
-          <div class="row d-flex justify-content-center">
-            <form class="form-row mb-4">
-              <!-- first input form -->
+          <form>
+            <p class="result"></p>
+            <div class="row">
               <div class="col-md-6">
-                <input type="text" name="Name" placeholder="Name..." class="form control" id="namee" size="60" required>
+                <p class="name"></p>
+                <input
+                  id="namee"
+                  type="text"
+                  class="form-control"
+                  id="inputName"
+                  placeholder="name..."
+                />
               </div>
-              <!-- second input form -->
               <div class="col-md-6">
-                <input type="email" name="Email" placeholder="Email..." class="form control" id="email" size="60" required>
+                <p class="email"></p>
+                <input
+                  id="email"
+                  type="email"
+                  class="form-control"
+                  id="inputEmail"
+                  placeholder="email..."
+                />
               </div>
-            </form>
-          </div>
-          <div class="row d-flex justify-content-center alefo">
-            <form class="form-row mb-4">
-              <!-- textarea  -->
-              <div class="col text-center">
-                <textarea name="message" id="meso" cols="110" rows="10" placeholder="Your message here..." required></textarea>
-              </div>
-            </form>
-          </div>
-          <div class="row d-flex justify-content-center ">
-            <form>
-              <a type="submit" onclick="submit(); formValidate()" id="btns" class="btn btn-primary">Send</a>
-            </form>
-          </div>
-        </div>
+            </div>
+            <div class="form-group">
+              <p class="Your message here..."></p>
+              <textarea
+                id="meso"
+                type="email"
+                class="form-control"
+                id="inputMessage"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+  
       </div>
     </div>
     <div class="container-fluid">
