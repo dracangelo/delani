@@ -20,6 +20,7 @@
 > Impacts from the first site ought to be depicted in the site made.
 ## Project Screenshots
 - <img src="images/them.jpg" width=400px>
+- <img src="images/new>
 - This is the landing page of the website.
 ## Technologies Used
 - html
