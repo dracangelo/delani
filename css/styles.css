@@ -118,3 +118,15 @@ footer img {
       transform: translateY(-15px);
     }
   }
+
+  #dd {
+      display: none;
+  }
+
+  #uu {
+      display: none;
+  }
+
+  #mm {
+      display:none;
+  }

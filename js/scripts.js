@@ -1,12 +1,12 @@
 $(document).ready(function() {
   $("#pp").click(function() {
-    $("#dd").toggle(3000);
+    $("#dd").toggle(1000);
   });
   $("#tt").click(function() {
-    $("#uu").toggle(3000);
+    $("#uu").toggle(1000);
   });
   $("#gg").click(function() {
-    $("#mm").toggle(3000);
+    $("#mm").toggle(1000);
   });
   $("#pic").hover(
     function() {
@@ -17,72 +17,70 @@ $(document).ready(function() {
     }
   );
   $("#nop").hover(
-      function() {
-          $(".text2").show("slow");
-      },
-      function() {
-          $(".text2").hide("slow");
-      },
+    function() {
+      $(".text2").show("slow");
+    },
+    function() {
+      $(".text2").hide("slow");
+    }
   );
-  $("#noo").hover (
-      function() {
-          $(".text3").show("slow");
-      },
-      function() {
-          $(".text3").hide("slow")
-      }
+  $("#noo").hover(
+    function() {
+      $(".text3").show("slow");
+    },
+    function() {
+      $(".text3").hide("slow");
+    }
   );
-  $("#yep").hover (
-      function() {
-          $(".text4").show("slow");
-      },
-      function() {
-          $(".text4").hide("slow")
-      }
+  $("#yep").hover(
+    function() {
+      $(".text4").show("slow");
+    },
+    function() {
+      $(".text4").hide("slow");
+    }
   );
-  $("#shtap").hover (
-      function() {
-          $(".text5").show("slow");
-      }, 
-      function() {
-          $(".text5").hide("slow")
-      },
+  $("#shtap").hover(
+    function() {
+      $(".text5").show("slow");
+    },
+    function() {
+      $(".text5").hide("slow");
+    }
   );
-  $("#doo").hover (
-      function() {
-          $(".text6").show("slow");
-      },
-      function() {
-          $(".text6").hide("slow")
-      }
+  $("#doo").hover(
+    function() {
+      $(".text6").show("slow");
+    },
+    function() {
+      $(".text6").hide("slow");
+    }
   );
-  $("#cls").hover (
-      function() {
-          $(".text7").show("slow");
-      },
-      function() {
-          $(".text7").hide("slow")
-      }
+  $("#cls").hover(
+    function() {
+      $(".text7").show("slow");
+    },
+    function() {
+      $(".text7").hide("slow");
+    }
   );
-  $("#ksj").hover (
-      function() {
-          $(".text8").show("slow");
-      },
-      function() {
-          $(".text8").hide("slow")
-      }
+  $("#ksj").hover(
+    function() {
+      $(".text8").show("slow");
+    },
+    function() {
+      $(".text8").hide("slow");
+    }
   );
 });
-function submit(){
-
-var name=document.getElementById("name")
-var email=document.getElementById("email")
-var message=document.getElementById("meso")
-if(email="") {
-    alert("please enter email")
-}
-else {
-    alert("Thank you for reaching out to us!")
-}
-event.preventDefault()
+function submit() {
+  var name = document.getElementById("name");
+  var email = document.getElementById("email");
+  var message = document.getElementById("meso");
+  if (email === "") {
+    alert("please enter email");
+  } else {
+    alert("Thank you for reaching out to us!");
+  }
+  event.preventDefault();
 }
