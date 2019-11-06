@@ -1,3 +1,9 @@
+html, body {
+    height:100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .lander {
     background-image: url(https://bit.ly/2oDLynS);
     background-attachment: fixed;
@@ -5,6 +11,7 @@
     color: white;
     /* padding-left: 92vh; */
     padding-top: 35vh;
+    position: cover;
 }
 
 .lander p {
