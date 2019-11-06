@@ -103,9 +103,12 @@ footer {
     color: rgb(214, 7, 41);
 }
 
-.text:hover {
-    opacity: 0;
+.con {
+    color: white;
 }
+/* .text:hover {
+    opacity: 0;
+} */
 .headd {
     padding-top: 3vh;
     margin-bottom: 4vh;
