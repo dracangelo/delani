@@ -26,66 +26,66 @@ $(document).ready(function() {
   });
   $("#pic").hover(
     function() {
-      $(".text1").show("slow");
+      $(".text1").show();
     },
     function() {
-      $(".text1").hide("slow");
+      $(".text1").hide();
     }
   );
   $("#nop").hover(
     function() {
-      $(".text2").show("slow");
+      $(".text2").show();
     },
     function() {
-      $(".text2").hide("slow");
+      $(".text2").hide();
     }
   );
   $("#noo").hover(
     function() {
-      $(".text3").show("slow");
+      $(".text3").show();
     },
     function() {
-      $(".text3").hide("slow");
+      $(".text3").hide();
     }
   );
   $("#yep").hover(
     function() {
-      $(".text4").show("slow");
+      $(".text4").show();
     },
     function() {
-      $(".text4").hide("slow");
+      $(".text4").hide();
     }
   );
   $("#shtap").hover(
     function() {
-      $(".text5").show("slow");
+      $(".text5").show();
     },
     function() {
-      $(".text5").hide("slow");
+      $(".text5").hide();
     }
   );
   $("#doo").hover(
     function() {
-      $(".text6").show("slow");
+      $(".text6").show();
     },
     function() {
-      $(".text6").hide("slow");
+      $(".text6").hide();
     }
   );
   $("#cls").hover(
     function() {
-      $(".text7").show("slow");
+      $(".text7").show();
     },
     function() {
-      $(".text7").hide("slow");
+      $(".text7").hide();
     }
   );
   $("#ksj").hover(
     function() {
-      $(".text8").show("slow");
+      $(".text8").show();
     },
     function() {
-      $(".text8").hide("slow");
+      $(".text8").hide();
     }
   );
 });

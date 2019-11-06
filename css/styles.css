@@ -91,15 +91,20 @@ footer {
 
 .text {
     position: absolute;
-    top:45%;
+    top:40%;
     left:50%;
     transform: translate(-50%,50%);
     border-style: solid;
     border-width: 5px;
+    padding: 10px;
     border: white;
     display: none;
     background: chartreuse;
     color: rgb(214, 7, 41);
+}
+
+.text:hover {
+    opacity: 0;
 }
 .headd {
     padding-top: 3vh;
